@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Game!</title>
+        <link rel="stylesheet" href="game.css" />
+        <script src="game.js" type="module"></script>
+    </head>
+    <body>
+        <nav>
+            <p id="back"><a href="index.html">Back to menu</a></p>
+            <h1>Berry Hunt !</h1>
+        </nav>
+        <p id="play">Collect all of the strawberries !</p>
+        <!-- <p><a href="{{ url_for('game') }}">PLAY</a></p> -->
+        <canvas width="570" height="450"></canvas>
+        <!-- <canvas width="630" height="510"></canvas> -->
+        <!-- <a href="{{ url_for('game') }}">Play again?</a> -->
+        <section id="play">
+            <p>Result: <b id="result"></b></p>
+            <p>There are <b id="strawberries"></b> strawberries left to collect.</p>
+            <p><a href="game.html">Start again?</a></p>
+        </section>
+
+    </body>
+</html>
