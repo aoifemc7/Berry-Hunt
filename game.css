@@ -1,0 +1,48 @@
+canvas {
+    /* background-color: rgb(128, 153, 94); */
+    border: 1px solid black;
+    display: block;
+    margin: 1em auto;
+}
+
+html {
+    background-color: rgb(245, 81, 155);
+}
+
+h1 {
+    background-color: beige;
+    color: rgb(164, 5, 77);
+    text-align: center;
+    border-radius: .5em;
+    padding: 1rem;
+    margin: 4%;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-areas: "one two";
+}
+
+#back {
+    background-color: beige;
+    text-align: center;
+    border-radius: 1em;
+    padding: 1rem;
+    margin: 4%;
+}
+
+section {
+    background-color: beige;
+    border-radius: .5em;
+    padding: 1rem;
+    margin: 4%;
+}
+
+#play {
+    background-color: beige;
+    text-align: center;
+    border-radius: 1em;
+    padding: 1rem;
+    margin: 4%;
+}
